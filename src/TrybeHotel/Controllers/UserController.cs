@@ -1,3 +1,4 @@
+#nullable disable
 using Microsoft.AspNetCore.Mvc;
 using TrybeHotel.Models;
 using TrybeHotel.Repository;
@@ -17,16 +18,27 @@ namespace TrybeHotel.Controllers
         {
             _repository = repository;
         }
-        
+
         [HttpGet]
-        public IActionResult GetUsers(){
-            throw new NotImplementedException();
+        [Authorize(AuthenticationSchemes = JwtBearerDefaults.AuthenticationScheme)]
+        [Authorize(Roles = "admin")]
+        public IActionResult GetUsers()
+        {
+            return Ok(_repository.GetUsers());
         }
 
         [HttpPost]
         public IActionResult Add([FromBody] UserDtoInsert user)
         {
-            throw new NotImplementedException();
+            try
+            {
+                var newUser = _repository.Add(user);
+                return Created("", newUser);
+            }
+            catch (Exception err)
+            {
+                return Conflict(new { message = err.Message });
+            }
         }
     }
 }
