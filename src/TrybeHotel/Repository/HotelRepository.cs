@@ -40,7 +40,7 @@ namespace TrybeHotel.Repository
             return hotelsDto.ToList();
         }
 
-        // 5. Desenvolva o endpoint POST /hotel
+        // 6. Desenvolva o endpoint POST /hotel
         public HotelDto AddHotel(Hotel hotel)
         {
             var city = _context.Cities.Find(hotel.CityId);
@@ -61,7 +61,8 @@ namespace TrybeHotel.Repository
                 Name = newHotel.Name,
                 Address = newHotel.Address,
                 CityId = newHotel.CityId,
-                CityName = city?.Name
+                CityName = city?.Name,
+                State = city?.State,
             };
         }
     }
