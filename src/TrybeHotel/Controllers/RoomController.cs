@@ -23,7 +23,7 @@ namespace TrybeHotel.Controllers
             return Ok(_repository.GetRooms(HotelId));
         }
 
-        // 7. Desenvolva o endpoint POST /room
+        // 8. Desenvolva o endpoint POST /room
         [HttpPost]
         [Authorize(AuthenticationSchemes = JwtBearerDefaults.AuthenticationScheme)]
         [Authorize(Policy = "Admin")]

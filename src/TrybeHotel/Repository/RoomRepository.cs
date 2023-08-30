@@ -36,7 +36,7 @@ namespace TrybeHotel.Repository
         }
 
 
-        // 7. Desenvolva o endpoint POST /room
+        // 8. Desenvolva o endpoint POST /room
         public RoomDto AddRoom(Room room)
         {
             _context.Rooms.Add(room);
@@ -51,9 +51,13 @@ namespace TrybeHotel.Repository
                     Address = hotel.Address,
                     CityId = hotel.CityId,
                     CityName = _context.Cities
-                    .Where(city => city.CityId == hotel.CityId)
-                    .Select(city => city.Name)
-                    .FirstOrDefault()
+                        .Where(city => city.CityId == hotel.CityId)
+                        .Select(city => city.Name)
+                        .FirstOrDefault(),
+                    State = _context.Cities
+                        .Where(city => city.CityId == hotel.CityId)
+                        .Select(city => city.State)
+                        .FirstOrDefault(),
                 }).FirstOrDefault();
 
             return new RoomDto
