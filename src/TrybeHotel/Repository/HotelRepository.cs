@@ -23,7 +23,8 @@ namespace TrybeHotel.Repository
                     Name = hotel.Name,
                     Address = hotel.Address,
                     CityId = hotel.CityId,
-                    CityName = hotel.City != null ? hotel.City.Name : null
+                    CityName = hotel.City != null ? hotel.City.Name : null,
+                    state = hotel.City != null ? hotel.City.State: null,
                 }).ToList();
 
             var hotelsDto = hotelsWithCity.Select(hotel => new HotelDto
@@ -32,7 +33,8 @@ namespace TrybeHotel.Repository
                 Name = hotel.Name,
                 Address = hotel.Address,
                 CityId = hotel.CityId,
-                CityName = hotel.CityName
+                CityName = hotel.CityName,
+                State = hotel.state,
             });
 
             return hotelsDto.ToList();
