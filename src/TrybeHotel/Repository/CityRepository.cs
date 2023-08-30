@@ -14,14 +14,13 @@ namespace TrybeHotel.Repository
         // 4. Refatore o endpoint GET /city
         public IEnumerable<CityDto> GetCities()
         {
-           var getCities = _context.Cities.Select(
+           return _context.Cities.Select(
                 c => new CityDto{
                     CityId = c.CityId,
-                    Name = c.Name
+                    Name = c.Name,
+                    State = c.State
                 }
             ).ToList();
-
-            return getCities;
         }
 
         // 2. Refatore o endpoint POST /city
@@ -34,14 +33,22 @@ namespace TrybeHotel.Repository
             {
                 CityId = city.CityId,
                 Name = city.Name,
-                State = city.State,
+                State = city.State
             };
         }
 
         // 3. Desenvolva o endpoint PUT /city
         public CityDto UpdateCity(City city)
         {
-           throw new NotImplementedException();
+           _context.Cities.Update(city);
+           _context.SaveChanges();
+
+           return new CityDto
+           {
+                CityId = city.CityId,
+                Name = city.Name,
+                State = city.State
+           };
         }
 
     }
