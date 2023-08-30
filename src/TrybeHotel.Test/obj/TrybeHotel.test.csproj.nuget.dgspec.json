@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Users\\soulk\\Desktop\\Trybe\\Projects\\csharp-026-csharp-projeto-trybe-hotel-fase-c\\src\\TrybeHotel.Test\\TrybeHotel.test.csproj": {}
+    "C:\\Users\\soulk\\Desktop\\Trybe\\Projects\\csharp-026-csharp-projeto-trybe-hotel-fase-c\\src\\TrybeHotel.Test\\TrybeHotel.test.csproj": {}
   },
   "projects": {
-    "c:\\Users\\soulk\\Desktop\\Trybe\\Projects\\csharp-026-csharp-projeto-trybe-hotel-fase-c\\src\\TrybeHotel.Test\\TrybeHotel.test.csproj": {
+    "C:\\Users\\soulk\\Desktop\\Trybe\\Projects\\csharp-026-csharp-projeto-trybe-hotel-fase-c\\src\\TrybeHotel.Test\\TrybeHotel.test.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\soulk\\Desktop\\Trybe\\Projects\\csharp-026-csharp-projeto-trybe-hotel-fase-c\\src\\TrybeHotel.Test\\TrybeHotel.test.csproj",
+        "projectUniqueName": "C:\\Users\\soulk\\Desktop\\Trybe\\Projects\\csharp-026-csharp-projeto-trybe-hotel-fase-c\\src\\TrybeHotel.Test\\TrybeHotel.test.csproj",
         "projectName": "TrybeHotel.test",
-        "projectPath": "c:\\Users\\soulk\\Desktop\\Trybe\\Projects\\csharp-026-csharp-projeto-trybe-hotel-fase-c\\src\\TrybeHotel.Test\\TrybeHotel.test.csproj",
+        "projectPath": "C:\\Users\\soulk\\Desktop\\Trybe\\Projects\\csharp-026-csharp-projeto-trybe-hotel-fase-c\\src\\TrybeHotel.Test\\TrybeHotel.test.csproj",
         "packagesPath": "C:\\Users\\soulk\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\soulk\\Desktop\\Trybe\\Projects\\csharp-026-csharp-projeto-trybe-hotel-fase-c\\src\\TrybeHotel.Test\\obj\\",
+        "outputPath": "C:\\Users\\soulk\\Desktop\\Trybe\\Projects\\csharp-026-csharp-projeto-trybe-hotel-fase-c\\src\\TrybeHotel.Test\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\soulk\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -26,8 +26,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "c:\\Users\\soulk\\Desktop\\Trybe\\Projects\\csharp-026-csharp-projeto-trybe-hotel-fase-c\\src\\TrybeHotel\\TrybeHotel.csproj": {
-                "projectPath": "c:\\Users\\soulk\\Desktop\\Trybe\\Projects\\csharp-026-csharp-projeto-trybe-hotel-fase-c\\src\\TrybeHotel\\TrybeHotel.csproj"
+              "C:\\Users\\soulk\\Desktop\\Trybe\\Projects\\csharp-026-csharp-projeto-trybe-hotel-fase-c\\src\\TrybeHotel\\TrybeHotel.csproj": {
+                "projectPath": "C:\\Users\\soulk\\Desktop\\Trybe\\Projects\\csharp-026-csharp-projeto-trybe-hotel-fase-c\\src\\TrybeHotel\\TrybeHotel.csproj"
               }
             }
           }
@@ -125,14 +125,14 @@
         }
       }
     },
-    "c:\\Users\\soulk\\Desktop\\Trybe\\Projects\\csharp-026-csharp-projeto-trybe-hotel-fase-c\\src\\TrybeHotel\\TrybeHotel.csproj": {
+    "C:\\Users\\soulk\\Desktop\\Trybe\\Projects\\csharp-026-csharp-projeto-trybe-hotel-fase-c\\src\\TrybeHotel\\TrybeHotel.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\soulk\\Desktop\\Trybe\\Projects\\csharp-026-csharp-projeto-trybe-hotel-fase-c\\src\\TrybeHotel\\TrybeHotel.csproj",
+        "projectUniqueName": "C:\\Users\\soulk\\Desktop\\Trybe\\Projects\\csharp-026-csharp-projeto-trybe-hotel-fase-c\\src\\TrybeHotel\\TrybeHotel.csproj",
         "projectName": "TrybeHotel",
-        "projectPath": "c:\\Users\\soulk\\Desktop\\Trybe\\Projects\\csharp-026-csharp-projeto-trybe-hotel-fase-c\\src\\TrybeHotel\\TrybeHotel.csproj",
+        "projectPath": "C:\\Users\\soulk\\Desktop\\Trybe\\Projects\\csharp-026-csharp-projeto-trybe-hotel-fase-c\\src\\TrybeHotel\\TrybeHotel.csproj",
         "packagesPath": "C:\\Users\\soulk\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\soulk\\Desktop\\Trybe\\Projects\\csharp-026-csharp-projeto-trybe-hotel-fase-c\\src\\TrybeHotel\\obj\\",
+        "outputPath": "C:\\Users\\soulk\\Desktop\\Trybe\\Projects\\csharp-026-csharp-projeto-trybe-hotel-fase-c\\src\\TrybeHotel\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\soulk\\AppData\\Roaming\\NuGet\\NuGet.Config"

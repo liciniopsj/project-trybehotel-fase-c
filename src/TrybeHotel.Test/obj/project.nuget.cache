@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Enl7Nr0EjXqx+G4QiaR8mboa89YrjJqUkcGlNzCTR/0gADkMZpQKvWQu8QvSDnZnwZNJUFH7s2X4iTmODet8Rg==",
+  "dgSpecHash": "8kMGWC3mrW1Vc5kyKCJEphd1JpN9SLDzpCXMZO4pt5Ps+uQXL01TrvVJ8ngdgfGxGuqql3aXQw3VTSjR87jFsw==",
   "success": true,
-  "projectFilePath": "c:\\Users\\soulk\\Desktop\\Trybe\\Projects\\csharp-026-csharp-projeto-trybe-hotel-fase-c\\src\\TrybeHotel.Test\\TrybeHotel.test.csproj",
+  "projectFilePath": "C:\\Users\\soulk\\Desktop\\Trybe\\Projects\\csharp-026-csharp-projeto-trybe-hotel-fase-c\\src\\TrybeHotel.Test\\TrybeHotel.test.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\soulk\\.nuget\\packages\\azure.core\\1.24.0\\azure.core.1.24.0.nupkg.sha512",
     "C:\\Users\\soulk\\.nuget\\packages\\azure.identity\\1.6.0\\azure.identity.1.6.0.nupkg.sha512",

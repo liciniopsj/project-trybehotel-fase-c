@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Users\\soulk\\Desktop\\Trybe\\Projects\\csharp-026-csharp-projeto-trybe-hotel-fase-c\\src\\TrybeHotel\\TrybeHotel.csproj": {}
+    "C:\\Users\\soulk\\Desktop\\Trybe\\Projects\\csharp-026-csharp-projeto-trybe-hotel-fase-c\\src\\TrybeHotel\\TrybeHotel.csproj": {}
   },
   "projects": {
-    "c:\\Users\\soulk\\Desktop\\Trybe\\Projects\\csharp-026-csharp-projeto-trybe-hotel-fase-c\\src\\TrybeHotel\\TrybeHotel.csproj": {
+    "C:\\Users\\soulk\\Desktop\\Trybe\\Projects\\csharp-026-csharp-projeto-trybe-hotel-fase-c\\src\\TrybeHotel\\TrybeHotel.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\soulk\\Desktop\\Trybe\\Projects\\csharp-026-csharp-projeto-trybe-hotel-fase-c\\src\\TrybeHotel\\TrybeHotel.csproj",
+        "projectUniqueName": "C:\\Users\\soulk\\Desktop\\Trybe\\Projects\\csharp-026-csharp-projeto-trybe-hotel-fase-c\\src\\TrybeHotel\\TrybeHotel.csproj",
         "projectName": "TrybeHotel",
-        "projectPath": "c:\\Users\\soulk\\Desktop\\Trybe\\Projects\\csharp-026-csharp-projeto-trybe-hotel-fase-c\\src\\TrybeHotel\\TrybeHotel.csproj",
+        "projectPath": "C:\\Users\\soulk\\Desktop\\Trybe\\Projects\\csharp-026-csharp-projeto-trybe-hotel-fase-c\\src\\TrybeHotel\\TrybeHotel.csproj",
         "packagesPath": "C:\\Users\\soulk\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\soulk\\Desktop\\Trybe\\Projects\\csharp-026-csharp-projeto-trybe-hotel-fase-c\\src\\TrybeHotel\\obj\\",
+        "outputPath": "C:\\Users\\soulk\\Desktop\\Trybe\\Projects\\csharp-026-csharp-projeto-trybe-hotel-fase-c\\src\\TrybeHotel\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\soulk\\AppData\\Roaming\\NuGet\\NuGet.Config"
