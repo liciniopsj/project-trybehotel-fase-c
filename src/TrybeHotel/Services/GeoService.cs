@@ -23,7 +23,7 @@ namespace TrybeHotel.Services
         }
 
         // 12. Desenvolva o endpoint GET /geo/address
-        public async Task<GeoDtoResponse?> GetGeoLocation(GeoDto geoDto)
+        public async Task<GeoDtoResponse> GetGeoLocation(GeoDto geoDto)
         {
             var url = $"https://nominatim.openstreetmap.org/search?street={geoDto.Address}&city={geoDto.City}&country=Brazil&state={geoDto.State}&format=json&limit=1";
 
